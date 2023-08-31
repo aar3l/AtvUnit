@@ -1,6 +1,6 @@
 import os
 import random as rd
-import
+import webbrowser
 
 # Zhael aaron - Periodo 4 - N01
 def clear():
@@ -92,4 +92,4 @@ while ativo == True:
     except KeyError:
         pass
 
-open("https://cdn.discordapp.com/attachments/737443181439746159/1146791520062681209/upscaler-imagem_2023-08-31_095349875-2x.png")
+webbrowser.open("https://cdn.discordapp.com/attachments/737443181439746159/1146791520062681209/upscaler-imagem_2023-08-31_095349875-2x.png")
